@@ -7,6 +7,10 @@ $item-width: 18%;
 header {
 	padding-top: 10px;
 
+	@include respond-to( 1024px ) {
+		padding-top: 20px;
+	}
+
 	.logo {
 		padding: 10px 20px;
 		text-align: center;
@@ -14,6 +18,7 @@ header {
 		@include respond-to( 600px ) {
 			width: 50%;
 			float: left;
+			padding: 20px;
 		}
 	}
 
