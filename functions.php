@@ -9,10 +9,6 @@ ini_set( "display_errors", 1 );
 define( "CMB_PREFIX", "_p_" );
 
 
-// include the faculty content type
-include( "library/post-type/product.php" );
-
-
 // include some theme-related things
 include( "library/menus.php" );
 include( "library/scripts.php" );
@@ -27,12 +23,9 @@ include( "library/metabox.php" );
 
 
 // include quote metaboxes/functions
-include( "library/title.php" );
+// include( "library/title.php" );
 include( "library/showcase.php" );
-include( "library/accordion.php" );
+// include( "library/accordion.php" );
 
-
-// include the anthem feed parsing functionality
-include( "library/anthem-feed.php" );
 
 ?>
