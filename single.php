@@ -6,22 +6,21 @@
 get_header();
 
 ?>
-	<div id="primary" class="site-content">
 
-		<div id="content" class="site-content content-narrow" role="main">
+	<div class="content-wide" role="main">
 		<?php 
 		if ( have_posts() ) :
 			while ( have_posts() ) : the_post(); 
 				?>
 				<h1><?php the_title(); ?></h1>
+				<?php the_content(); ?>
+				<p class="quiet postmeta">Posted by <?php print get_the_author_link() ?> in <?php print get_the_category_list( ', ' ) ?>.</p>
 				<?php
-				the_content();
 			endwhile;
 		endif;
-		 ?>
-		</div><!-- #content -->
+		?>
+	</div>
 
-	</div><!-- #primary -->
 <?php
 
 get_footer();

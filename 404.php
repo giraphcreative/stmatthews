@@ -6,17 +6,13 @@
 get_header(); ?>
 
 
-	<div id="primary" class="site-content">
-		<div id="content" class="site-content content-narrow" role="main">
+	<div class="site-content content-wide" role="main">
 
-			<h1 class="page-title">Not Found</h1>
+		<h1>Not Found</h1>
+		<p>We couldn't find a page at the URL you requested. Navigate using the menu, or search using the form below.</p>
+		<p class="search-form"><?php print get_search_form(); ?></p>
 
-			<p>We couldn't find a page at the URL you requested. Navigate using the menu, or search using the form below.</p>
-
-			<p class="search-form"><?php print get_search_form(); ?></p>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
+	</div>
 
 <?php
 

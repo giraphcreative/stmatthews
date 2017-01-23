@@ -11,6 +11,9 @@ get_header();
 
 		<?php 
 		if ( have_posts() ) : 
+			?>
+			<h1>Author: <span><?php the_author(); ?></span></h1>
+			<?php 
 
 			// Start the Loop.
 			while ( have_posts() ) : the_post(); 
