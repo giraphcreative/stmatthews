@@ -1,0 +1,19 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,300italic,400italic,700italic);
+
+@mixin font {
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+}
+
+@mixin font-medium {
+	font-family: Lato, sans-serif;
+	font-weight: 500;
+}
+
+@mixin font-bold {
+	font-family: Lato, sans-serif;
+	font-weight: 700;
+}
+
