@@ -6,8 +6,16 @@ footer {
 	font-size: .8em;
 	color: black;
 	text-align: center;
-	padding-top: 20px;
+	padding: 20px 0;
 	@include clearfix;
+
+	@include respond-to( 1024px ) {
+		padding: 20px;
+	}
+
+	@include respond-to( 1220px ) {
+		padding: 20px 40px;
+	}
 
 	.column {
 		padding: 20px;

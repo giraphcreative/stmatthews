@@ -19,7 +19,7 @@
 		</div>
 		<div class="column">
 			<img src="<?php bloginfo( 'template_url' ); ?>/img/logo-equal-housing.png" />
-			<p>Equal Housing Lender - We do business in accordance with the Federal Fair Housing Law and the Equal Housing Opportunity Act. </p>
+			<p>We do business in accordance with the Federal Fair Housing Law and the Equal Housing Opportunity Act. </p>
 		</div>
 		<div class="column last">
 			<p><strong>St Matthews FCU</strong><br>

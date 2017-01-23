@@ -5,12 +5,7 @@
 	max-width: 1220px;
 	margin: 0 auto;
 	background: white;
-	box-shadow: 0 0 30px #ddd;
-}
-
-.wrap {
-	max-width: 1220px;
-	margin: 0 auto;
+	box-shadow: 0 0 50px #ccc;
 }
 
 .content {
@@ -21,7 +16,7 @@
 
 .content-narrow {
 	padding: 40px 20px;
-	max-width: 900px;
+	max-width: 1024px;
 	margin: 0 auto;
 	@extend .content-style;
 }
@@ -32,14 +27,11 @@
 	padding: 40px 20px;
 
 	@include respond-to( 1024px ) {
-		padding: 40px;
+		padding: 30px 40px 50px;
 	}
-	
-	&.home iframe:first-child {
-		@include respond-to( 840px ) {
-			float: right;
-			margin: 20px 0 20px 5%;
-		}
+
+	@include respond-to( 1220px ) {
+		padding: 30px 60px 60px;
 	}
 }
 
