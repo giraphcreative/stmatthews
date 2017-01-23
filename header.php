@@ -6,7 +6,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-<title><?php wp_title( '|', true, 'right' ); ?> NWCUF</title>
+<title><?php wp_title( '|', true, 'right' ); ?> St. Matthews FCU</title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -21,6 +21,8 @@
 </head>
 <body <?php body_class(); ?>>
 
+<div class="container">
+
 <header>
 
 	<div class="wrap">
@@ -31,12 +33,9 @@
 			</a>
 		</div>
 		
-		<div class="nwcua-logo">
-			<a href="http://www.nwcua.org/"><img src="<?php bloginfo( 'template_url' ) ?>/img/logo-nwcua.png"></a>
-		</div>
-
-		<div class="search">
-			<?php get_search_form(); ?>
+		<div class="slogan">
+			<h3>Finances, Family &amp; Faith</h3>
+			<a href="#" class="online-banking">Home Banking</a>
 		</div>
 
 	</div>

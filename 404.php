@@ -9,11 +9,9 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div id="content" class="site-content content-narrow" role="main">
 
-			<h1 class="page-title"><?php _e( 'Not Found', 'twentyfourteen' ); ?></h1>
+			<h1 class="page-title">Not Found</h1>
 
-			<p>Looking for the scholarships page? <a href="https://nwcuf.org/scholarships-and-grants">Click here</a>.</p>
-
-			<p>If not, feel free to try searching for what you need below.</p>
+			<p>We couldn't find a page at the URL you requested. Navigate using the menu, or search using the form below.</p>
 
 			<p class="search-form"><?php print get_search_form(); ?></p>
 

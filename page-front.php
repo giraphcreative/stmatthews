@@ -10,32 +10,39 @@ get_header();
 
 	<?php the_showcase(); ?>
 
-	<div class="wrap group">	
-
-		<div class="home-sections">
-			
-			<section>
-				<a href="/scholarships-and-grants"><img src="<?php bloginfo('template_url') ?>/img/home-scholarships.png"></a>
+	<div class="home-sections group">
+		
+		<a href="/rates">
+			<section class="bg-lime bg-fish">
+				Catch a <span>Great Rate</span>
 			</section>
-
-			<section>
-				<a href="/programs"><img src="<?php bloginfo('template_url') ?>/img/home-programs.png"></a>
+		</a>
+		
+		<a href="/finance">
+			<section class="bg-orange bg-fish">
+				Faith &amp; <span>Finance</span>
 			</section>
-
-			<section>
-				<a href="/give-to-nwcuf"><img src="<?php bloginfo('template_url') ?>/img/home-donate.png"></a>
+		</a>
+		
+		<a href="/join">
+			<section class="bg-navy bg-fish">
+				Join <span>Today</span>
 			</section>
-
-			<section>
-				<a href="/partnerships-and-resources"><img src="<?php bloginfo('template_url') ?>/img/home-friends.png"></a>
+		</a>
+		
+		<a href="/save">
+			<section class="bg-teal bg-fish">
+				Save <span>Hundreds</span>
 			</section>
-
-		</div>
+		</a>
 
 	</div>
-	
-	<div class="bg-teal bg-stripes">
-		<div class="wrap content-wide home">
+
+	<div class="bg-water">
+		<div class="home-header">
+			<h1>Serving the Saint Matthews Community</h1>
+		</div>
+		<div class="home-content">
 			<?php 
 			if ( have_posts() ) :
 				while ( have_posts() ) : the_post(); 

@@ -1,13 +1,10 @@
 
 
 // set colors
-$teal: #71CACB;
-$river: #076E92;
-$navy: #0F4469;
-$orange: #FCB416;
-$lime: #83A53E;
-$forest: #6E8E5F;
-$green: #73A341;
+$teal: #2C9BD6;
+$navy: #1C488E;
+$orange: #F79421;
+$lime: #8DC641;
 $grey: #9C9FA0;
 $grey-dark: darken( $grey, 30% );
 
@@ -21,14 +18,18 @@ $link-color: $teal;
 // mixin library
 @import "mixins";
 
+
 // font import and mixins
 @import "fonts";
+
 
 // css reset
 @import "reset";
 
+
 // base text and element styles
 @import "base";
+@import "grid";
 
 
 // header styles
@@ -36,11 +37,8 @@ $link-color: $teal;
 
 
 // general styles
-@import "title";
 @import "showcase";
 @import "content";
-@import "accordion";
-@import "matchup";
 
 
 // sidebar styles
@@ -53,11 +51,6 @@ $link-color: $teal;
 
 // home-specific styles
 @import "home";
-
-
-// partner styles
-@import "partners";
-
 
 
 // include magnific popup styles

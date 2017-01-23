@@ -4,28 +4,93 @@ $icon-width: 70px;
 
 
 .home-sections {
+	border-bottom: 10px solid white;
+
+	@include respond-to( 500px ) {
+		padding-left: 10px;
+	}
+	
 	@include respond-to( 1024px ) {
-		padding: 0 30px;
+		border-bottom: 20px solid white;
+		padding-left: 20px;
+	}
+
+	a:hover {
+		text-decoration: none;
 	}
 
 	section {
+		padding: 80px 10px;
+		font-family: "Oswald", sans-serif;
+		text-transform: uppercase;
+		font-size: 35px;
+		line-height: 40px;
+		text-align: center;
+		border-top: 10px solid white;
+		transition: opacity 400ms ease;
+		opacity: 1;
+
+		&:hover {
+			opacity: .9;
+		}
+
+		span {
+			display: block;
+			font-size: 45px;
+			line-height: 50px;
+		}
+
 		@include respond-to( 500px ) {
 			float: left;
 			width: 50%;
-		}
-
-		@include respond-to( 768px ) {
-			width: 25%;
+			border-right: 10px solid white;
 		}
 
 		@include respond-to( 1024px ) {
-			padding: 20px 10px;
+			width: 25%;
+			border-right: 20px solid white;
+			border-top: 20px solid white;
 		}
-	}
-
-	img {
-		width: 100%;
-		display: block;
 	}
 }
 
+
+.bg-water {
+	background: url(../img/bg-water.jpg) top center no-repeat;
+}
+
+
+.home-header {
+	height: 300px;
+	text-align: center;
+
+	h1 {
+		padding: 80px 20px 40px;
+
+		@include respond-to( 600px ) {
+			padding: 100px 20px 40px;
+		}
+
+		@include respond-to( 768px ) {
+			padding: 120px 20px 40px;
+			font-size: 2.4em;
+		}
+	}
+
+	@include respond-to( 768px ) {
+
+	}
+}
+
+
+.home-content {
+	padding: 90px 20px 40px 20px;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: $navy;
+	text-align: center;
+
+	@include respond-to( 768px ) {
+		padding: 90px 40px 70px 40px;
+	}
+}

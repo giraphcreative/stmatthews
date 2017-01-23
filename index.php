@@ -13,6 +13,8 @@ get_header(); ?>
 			<?php
 			if ( is_search() ) {
 				?><h1>Search Results for <span>'<?php print $_REQUEST["s"]; ?>'</span></h1><?php
+			} else {
+				?><h1>Our Blog</h1><?php
 			}
 
 			while ( have_posts() ) : the_post();

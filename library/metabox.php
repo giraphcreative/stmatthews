@@ -34,6 +34,7 @@ function page_metaboxes( $meta_boxes ) {
         )
     ) );
 
+    /*
     $showcase_metabox->add_group_field( $showcase_metabox_group, array(
         'name' => 'Title',
         'id'   => 'title',
@@ -45,6 +46,7 @@ function page_metaboxes( $meta_boxes ) {
         'id'   => 'subtitle',
         'type' => 'text',
     ) );
+    */
 
     $showcase_metabox->add_group_field( $showcase_metabox_group, array(
         'name' => 'Link',
