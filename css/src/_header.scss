@@ -22,7 +22,7 @@ header {
 		}
 
 		@include respond-to( 1024px ) {
-			width: 35%;
+			width: 40%;
 		}
 	}
 
@@ -37,7 +37,7 @@ header {
 		}
 
 		@include respond-to( 1024px ) {
-			width: 65%;
+			width: 60%;
 		}
 		
 		h3 {
