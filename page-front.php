@@ -12,7 +12,7 @@ get_header();
 
 	<div class="home-sections group">
 		
-		<a href="/rates">
+		<a href="/services/rates">
 			<section class="bg-lime bg-fish">
 				Catch a <span>Great Rate</span>
 			</section>
@@ -30,7 +30,7 @@ get_header();
 			</section>
 		</a>
 		
-		<a href="/save">
+		<a href="/services/savings">
 			<section class="bg-teal bg-fish">
 				Save <span>Hundreds</span>
 			</section>
