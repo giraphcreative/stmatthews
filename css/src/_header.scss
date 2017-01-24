@@ -20,6 +20,10 @@ header {
 			float: left;
 			padding: 20px;
 		}
+
+		@include respond-to( 1024px ) {
+			width: 35%;
+		}
 	}
 
 	.slogan {
@@ -30,6 +34,10 @@ header {
 			width: 50%;
 			float: left;
 			padding-top: 80px;
+		}
+
+		@include respond-to( 1024px ) {
+			width: 65%;
 		}
 		
 		h3 {
